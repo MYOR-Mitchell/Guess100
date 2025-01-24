@@ -95,6 +95,7 @@ function resetGame() {
     document.getElementById('lowGuess').textContent = "";
     document.getElementById('highGuess').textContent = "";
     document.getElementById('attemptCount').textContent = "0";
+    document.getElementById('currentInput').textContent = "0";
 
     const guessButton = document.getElementById('submitGuess');
     guessButton.textContent = "Submit Guess";
