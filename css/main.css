@@ -23,13 +23,6 @@ header {
     border-radius: 5px;
 }
 
-footer {
-    background: #0A1F44;
-    border-top: 1px solid #4A90E2;
-    border-radius: 5px;
-    margin-top: auto;
-}
-
 main {
     padding: 50px;
     background: #1E1E1E;
@@ -41,6 +34,20 @@ main p {
     font-size: 26px;
 }
 
+footer {
+    background: #0A1F44;
+    border-top: 1px solid #4A90E2;
+    border-radius: 5px;
+    margin-top: auto;
+}
+
+input {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Low, high, and input-display row */
 .visuals {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -54,21 +61,15 @@ main p {
     color: #FF6347;
 }
 
+.high {
+    color: #7FFF7F;
+}
+
 .input-display {
     color: #FFFFFF;
     text-decoration: underline;
     text-decoration-thickness: 4px;
     font-size: 150px;
-}
-
-.high {
-    color: #7FFF7F;
-}
-
-input {
-    text-align: center; 
-    margin: 0 auto; 
-    display: block; 
 }
 
 .attempts {
@@ -77,7 +78,7 @@ input {
     border-radius: 30px;
     border-bottom: 1px solid #4A90E2;
     background: #1E1E1E;
-    width: 20%;
+    width: auto;
     margin: 30px auto 0;
-    padding: 10px;
+    padding: 15px 20px;
 }
