@@ -10,6 +10,6 @@ Browser-based number number game where you try to guess a randomly generated num
 - Play Again button after a correct guess
 
 ## Tech stack
-- **HTML** – Page structure
-- **CSS & Bootstrap** – Styling and layout
-- **JavaScript** – Logic
+- **HTML** 
+- **CSS & Bootstrap** 
+- **JavaScript** 
