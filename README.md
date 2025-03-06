@@ -1,4 +1,4 @@
-# Guessing Game
+# Guess100
 
 ## Overview
 Browser-based number number game where you try to guess a randomly generated number between 1 and 100. 
