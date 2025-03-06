@@ -1,8 +1,7 @@
 window.onload = function() {
     generateRandomNumber();
-    console.log("Random number generated:", randomNumber); // Testing
+    console.log("Random number generated:", randomNumber); 
 
-    // Update input display in real-time
     document.getElementById('userGuess').addEventListener('input', function () {
         const currentInputDisplay = document.getElementById('currentInput');
         currentInputDisplay.textContent = this.value || "0";
@@ -14,7 +13,6 @@ window.onload = function() {
         }
     });
 };
-
 
 let randomNumber;
 let validGuess = null;
@@ -49,15 +47,14 @@ function compareGuess() {
         feedbackElement.style.color = "green";
 
         document.getElementById('userGuess').value = ""; 
-        document.getElementById('userGuess').blur(); // Remove focus from input field to avoid further input
+        document.getElementById('userGuess').blur(); 
 
-        // Change button to "Play Again"
         const guessButton = document.getElementById('submitGuess');
         guessButton.textContent = "Play Again";
         guessButton.onclick = resetGame;
 
         generateRandomNumber();
-        console.log("Random number generated:", randomNumber); // Testing
+        console.log("Random number generated:", randomNumber); 
 
     } else if (validGuess < randomNumber) {
         feedbackElement.textContent = "Too low! Try again.";
@@ -101,8 +98,8 @@ function resetGame() {
     guessButton.textContent = "Submit Guess";
     guessButton.onclick = checkGuess;
 
-    document.getElementById('userGuess').focus(); // Set focus back to input field
+    document.getElementById('userGuess').focus(); 
 
     generateRandomNumber();
-    console.log("New random number generated:", randomNumber); // Testing
+    console.log("New random number generated:", randomNumber); 
 }
