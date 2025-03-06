@@ -33,12 +33,7 @@ main p {
     font-size: 26px;
 }
 
-footer {
-    background: #0A1F44;
-    border-top: 1px solid #4A90E2;
-    border-radius: 5px;
-    margin-top: auto;
-}
+
 
 input {
     text-align: center;
@@ -87,4 +82,24 @@ button {
     width: auto;
     margin: 30px auto 30px;
     padding: 20px 25px;
+}
+
+footer {
+    background: #0A1F44;
+    padding: 1em;
+    border-top: 1px solid #4A90E2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 4.5em;
+    border-radius: 50%;
+}
+
+footer p {
+    font-size: 1.1rem;
+    margin: 0 .5em;
 }
